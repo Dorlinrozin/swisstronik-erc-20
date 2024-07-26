@@ -20,7 +20,7 @@ async function main() {
   const contract = contractFactory.attach(contractAddress);
   const functionName = "transfer";
   const amount = 1 * 10 ** 18;
-  const functionArgs = ["0x506675dd2A05AefB39f82aD01C79B513462D9c25", amount.toString()];
+  const functionArgs = ["0x16af037878a6cAce2Ea29d39A3757aC2F6F7aac1", amount.toString()];
   const transaction = await sendShieldedTransaction(
     signer,
     contractAddress,
