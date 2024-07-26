@@ -14,7 +14,7 @@ Ensure you have the following installed:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/dante4rt/swisstronik-erc-20.git
+    git clone https://github.com/Dorlinrozin/swisstronik-erc-20.git
     cd swisstronik-erc-20
     ```
 
@@ -51,4 +51,4 @@ This script transfers tokens from the contract to a specified address. It reads 
 ## Notes
 
 - Ensure your private key is kept secure.
-- The `transfer.js` script is set to transfer tokens to the address `0x16af037878a6cAce2Ea29d39A3757aC2F6F7aac1` with an amount of `1 * 10 ** 18` tokens. Modify these values as needed.
+- The `transfer.js` script is set to transfer tokens to the address `0x506675dd2A05AefB39f82aD01C79B513462D9c25` with an amount of `1 * 10 ** 18` tokens. Modify these values as needed.
